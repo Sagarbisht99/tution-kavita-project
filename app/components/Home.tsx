@@ -9,12 +9,8 @@ const Home = () => {
   return (
     <section className="relative flex flex-col items-center justify-center pt-10 pb-0 w-full bg-gradient-to-b from-blue-50 via-white to-white overflow-hidden">
       {/* Floating Icons */}
-      <div className="absolute top-[100px] left-10 text-yellow-400 text-4xl animate-bounce select-none">
-        ⭐
-      </div>
-      <div className="absolute top-[180px] right-10 text-blue-400 text-3xl animate-spin-slow select-none">
-        🎓
-      </div>
+  
+      
 
       {/* Avatars or animated element */}
       <AnimatedTooltipPreview />
